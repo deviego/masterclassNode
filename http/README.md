@@ -1,5 +1,6 @@
 ## My URlS
 - Esquecer Url nunca mais
+- O My URLS permite que você salve URlS de sites que queira visitar em algum momento, e tudo isso no seu local store
 #
 
 Mini projeto com as tecnologias:
