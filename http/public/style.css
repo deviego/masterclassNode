@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   
-  background: #7159c1;
+  background: #48328f;
 }
 
 .container {
@@ -26,6 +26,13 @@ h1 {
   color: white;
   
   font-size: 3.4rem;
+}
+
+p{
+  text-align: center;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 700; 
 }
 
 input {
@@ -48,7 +55,7 @@ ul {
   
   box-shadow: 0px 4px 8px -2px #00000033;
   border-radius: 6px;
-  border: 1px solid #ddd;
+  border-bottom: 4px groove black;
   
   padding: 16px;
   
@@ -58,12 +65,13 @@ ul {
 
 li {
   list-style: none;
-  
+  font-size: 16px;
+  font-weight: 600;
   display:flex;
   align-items: center;
   justify-content: space-between;
   
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(54, 53, 53);
 }
 
 
@@ -71,8 +79,8 @@ a {
   display: block;
   
   color: #333;
-  text-decoration: none;  
-  
+  text-decoration: none; 
+  font-weight: 16px;   
   padding: 16px 0;
   font-size: 1.8rem;
   
@@ -88,5 +96,7 @@ li:last-child {
 }
 
 li span {
+  font-size: 24px;
+  font-weight: 600;
   cursor:pointer;
 }

@@ -9,7 +9,7 @@ function writeFile(cb) {
         err => {
             if (err) throw err
 
-            cb(JSON.stringify({ message: "OK" }))
+            cb(JSON.stringify({ message: "OK deletado" }))
         }
 
     )
